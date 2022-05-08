@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Связаться с нами | NKN-Mebel</title>
+		
+		<meta name="keywords" content="Контактная информация nkn, адрес nkn мебели, телефон для связи nkn мебели" />
+		<meta name="description" content="Для связи с нами используйте контактную информацию текущей страницы" />
+		
+                <meta name="viewport" content="width=device-width,initial-scale=1.0">
+                <meta name="robots" content="index, follow"/>
+		<!-- Common  Style-->
+                    <?php include 'layots/header.html'; ?>
+                <!--END -->   
+	</head>
+    <body class="light-page">
+ <!-- Navigation Block-->
+                <?php include 'layots/navigation.html'; ?>
+ <!--End Block -->
+        <div id="wrap">
+			<section id="contact-quartbg-form-text" class="bg-1-color-light light pt-200 pb-md-200 text-left"> 			
+    			<div class="container">
+        			<div class="row text-center">
+                                    <div class="header-h1">
+                                        <h1 data-aos="fade-down" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0" class="pt-125">Наши контакты</h1>         			           			
+                                    </div>
+                                    
+            			<div class="col-md-6">
+                                    <div class="header-h2 header-h2-center">
+                                        <h2 class="mb-50">Контактная информация</h2>
+                                    </div>
+                			<p class="mb-30 mt-15">Вы можете связаться с нами по указанным ниже контактам</p>
+                                            <ul class="text-icon-list">                
+                                                <li><i class="icon-at-sign"></i>
+                                                    <span>Наша электронная почта: <a href="mailto:info@nkn-mebel.by"><strong>info@nkn-mebel.by</strong></a></span>
+                                                </li>
+                                                <li><i class="icon-phone-incoming"></i>
+                                                    <span>Наш телефон (мтс, viber): <a href="tel:+375(29)795-24-13"><strong>+375(29)795-24-13</strong></a></span>
+                                                </li>
+                                                <li><i class="icon-clock"></i>
+                                                    <span>Наши часы работы: <strong>пн.-пт. 9:00-18:00</strong></span>
+                                                </li>
+                                            </ul>
+            			</div>
+                                    <div class="col-md-6">
+                                    <div class="header-h2 header-h2-center">
+                                       <h2 class="mb-50">Напишите нам </h2>
+                                    </div>
+                			
+                			<form action="/scripts/" class="contact_form mt-15" id="contact-form" novalidate="novalidate">
+                    			<div class="form-group has-feedback">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="icon-user2  icon-size-m"></i></span>
+                                                <input type="text" class="form-control" placeholder="Ваше имя" name="NAME" required="required" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$">
+                                            </div>
+                                        </div>
+                    			<div class="form-group has-feedback">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="icon-envelop icon-size-m"></i></span>
+                                                <input type="email" id = "email" class="form-control" placeholder="Email" name="EMAIL" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="icon-bubble2  icon-size-m"></i></span>
+                                                <textarea class="form-control" rows="6" placeholder="Сообщение" name="MESSAGE" required="required" maxlength="400"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group response_order">
+                                            <p class="msg"></p>
+                                        </div>
+                    			<button type="submit" data-loading-text="•••" data-complete-text="Completed!" data-reset-text="Try again later..." class="btn btn-block btn-primary"><span>Отправить</span></button> 
+                			</form>
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section>
+   <section id="action-center-text-btn-3" class="pt-100 pb-100 light text-center">
+    			<div class="container">
+        			<div class="row">
+            			<div class="col-md-12 flex-md-center">
+                                    <h2 class="inline-h"><strong>Не упускайте свой шанс заказать качественную мебель</strong></h2>               			
+            			</div>
+        			</div>
+    			</div>
+    			<div class="bg"></div>
+			</section>
+                    <!--Footer block -->
+    <?php include 'layots/footer.html'; ?>
+<!--End Footer Block -->            
+</div>
+ <!-- CallMe Button -->
+                        <?php include 'layots/call_me.html'; ?>
+                    <!--End CallMe -->
+<!-- Modal -->
+<div class="modal-container">
+    <!--Modal Call -->
+        <?php include 'layots/modal_request_call.html';?>
+    <!--End Modal Call -->               
+</div>
+		
+    <!--Scripts -->
+            <?php include 'layots/scripts.html';?>
+    <!--End Scripts  -->   
+	</body>
+</html>
